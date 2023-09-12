@@ -7,7 +7,11 @@
  * Return: either 1 or 0
  */
 int _putchar(char c);
+/**
+ * print_alphabet - print lowercase alphabet
+ */
 
+void print_alphabet(void);
 /**
  * print_alphabet_x10 - prints the alphabet 10 times
  *
