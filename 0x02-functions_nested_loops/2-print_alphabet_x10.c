@@ -1,32 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * print_alphabet_x10 -Entry Point
- *
- * Description: This func prints alphabets in lowercase
- *
- * Return: Always 0 (Success)
+ * print_alphabet - Entry point
+ * Return:0
  */
-int main(void)
+
+void print_alphabet(void)
 {
-	char c;
-	int res;
+	char c = 'a';
 
-	res = print_alphabet_x10(c);
-
-void print_alphabet_x10(void)
-{
-	char a;
-	int  i;
-
-
-	for (i = 0; i < 10; i++)
+	while (c <= 'z')
 	{
-		for (a = 'a'; a <= 'z'; a++)
-		{
-			putchar(a);
-		}
-		putchar('\n');
+		_putchar(c);
+		c++;
+
 	}
-	return (0);
+	_putchar('\n');
+
 }
