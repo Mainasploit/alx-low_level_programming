@@ -4,7 +4,7 @@
 /**
  * print_last_digit - function to be the last digit of a number
  *
- * @a: parameter to be entered
+ * @n: parameter to be entered
  *
  *
  * Return: Always 0
